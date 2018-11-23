@@ -1,0 +1,13 @@
+page-home {
+	ion-scroll {
+		white-space: nowrap;
+		height: 100px;
+	}
+	
+	ion-card {
+		display: inline-block;
+		&.card-md, &.card-ios{
+			width: calc(50% - 20px);	
+		}
+	}
+}
